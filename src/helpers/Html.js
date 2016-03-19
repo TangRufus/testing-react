@@ -27,8 +27,8 @@ export default class Html extends Component {
     return (
       <html lang="zh">
       <head>
-      	<meta charset="utf-8" />
-      	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+      	<meta charSet="utf-8" />
+      	<meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
       	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
         <meta name="viewport" content="width=device-width" />
 
@@ -51,7 +51,7 @@ export default class Html extends Component {
           { Object.keys(assets.styles).length === 0 ? <style dangerouslySetInnerHTML={{__html: require('../theme/bootstrap.config.js')}}/> : null }
         </head>
 
-        <body class="home">
+        <body className="home">
           <div id="content" dangerouslySetInnerHTML={{__html: content}}/>
           <script dangerouslySetInnerHTML={{__html: `window.__data=${serialize(store.getState())};`}} charSet="UTF-8"/>
           <script src={assets.javascript.main} charSet="UTF-8"/>

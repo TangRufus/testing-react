@@ -21,10 +21,10 @@ function Footer() {
             <h5 className="title"> Help and Support</h5>
             <nav>
               <ul>
-                <li><Link to="/how-does-it-work">怎樣運作</Link></li>
-                <li><Link to="/pricing">收費</Link></li>
-                <li><Link to="/for-artistes">演員須知</Link></li>
-                <li><Link to="/for-producers">導演須知</Link></li>
+                <li><Link to="how-does-it-work">怎樣運作</Link></li>
+                <li><Link to="pricing">收費</Link></li>
+                <li><Link to="for-artistes">演員須知</Link></li>
+                <li><Link to="for-producers">導演須知</Link></li>
               </ul>
             </nav>
           </div>
@@ -33,8 +33,8 @@ function Footer() {
             <h5 className="title">Company</h5>
             <nav>
               <ul>
-                <li><Link to="/about-us">關於我們</Link></li>
-                <li><Link to="/privacy">Privacy Policy</Link></li>
+                <li><Link to="about-us">關於我們</Link></li>
+                <li><Link to="privacy">Privacy Policy</Link></li>
               </ul>
             </nav>
           </div>

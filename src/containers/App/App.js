@@ -2,7 +2,7 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import config from '../../config';
 
-import { Footer, NavBar, RightMenu } from 'components';
+import { Footer, NavBar } from 'components';
 
 function App({ children }) {
   return (
@@ -13,7 +13,6 @@ function App({ children }) {
         {children}
       </div>
       <Footer />
-      <RightMenu />
     </div>
   );
 }

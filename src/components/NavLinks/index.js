@@ -13,8 +13,8 @@ function NavLinks({ additionalClassName }) {
   return (
       <div className="collapse navbar-collapse">
         <ul ref="navLinks" className={ulClassName}>
-          <li><Link to="/how-does-it-work" activeClassName="active">怎樣運作</Link></li>
-          <li><Link to="/pricing" activeClassName="active">收費</Link></li>
+          <li><Link to="how-does-it-work" activeClassName="active">怎樣運作</Link></li>
+          <li><Link to="pricing" activeClassName="active">收費</Link></li>
         </ul>
     </div>
   );

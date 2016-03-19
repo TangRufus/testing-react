@@ -46,10 +46,10 @@ export default (store) => {
       </Route>
 
       { /* Routes */ }
-      <Route path="about" component={About}/>
-      <Route path="login" component={Login}/>
-      <Route path="survey" component={Survey}/>
-      <Route path="widgets" component={Widgets}/>
+      <Route path="about-us" component={About}/>
+      <Route path="how-does-it-work" component={Login}/>
+      <Route path="pricing" component={Survey}/>
+      <Route path="for-producers" component={Widgets}/>
 
       { /* Catch all route */ }
       <Route path="*" component={NotFound} status={404} />

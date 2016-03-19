@@ -1,6 +1,5 @@
 import React from 'react';
 import { Hero } from 'components';
-// import config from '../../config';
 import Helmet from 'react-helmet';
 
 function Home() {
@@ -8,7 +7,7 @@ function Home() {
     <div>
       <Helmet title="Home" />
 
-      <Hero />
+      <Hero title="伯樂" />
 
       <div className="container">
         <h2 className="section-title">Description</h2>

@@ -21,4 +21,3 @@ export Footer from './Footer';
 export Hero from './Hero';
 export NavBar from './NavBar';
 export NavLinks from './NavLinks';
-export RightMenu from './RightMenu';
