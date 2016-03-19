@@ -11,3 +11,14 @@ export InfoBar from './InfoBar/InfoBar';
 export MiniInfoBar from './MiniInfoBar/MiniInfoBar';
 export SurveyForm from './SurveyForm/SurveyForm';
 export WidgetForm from './WidgetForm/WidgetForm';
+
+/**
+ *  TODO: Remove all above
+ *
+ */
+
+export Footer from './Footer';
+export Hero from './Hero';
+export NavBar from './NavBar';
+export NavLinks from './NavLinks';
+export RightMenu from './RightMenu';
